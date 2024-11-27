@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TITA"
         tools:targetApi="31">
         <activity
+            android:name=".recompensas"
+            android:exported="false" />
+        <activity
             android:name=".registro"
             android:exported="false" />
         <activity
