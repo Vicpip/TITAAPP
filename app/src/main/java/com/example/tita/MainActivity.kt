@@ -3,6 +3,7 @@ package com.example.tita
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -39,7 +40,19 @@ class MainActivity : AppCompatActivity() {
 
         val btnrecp: Button = findViewById(R.id.btnReco)
         btnrecp.setOnClickListener{
-            val intent = Intent(this, recomendaciones::class.java)
+            val intent = Intent(this, recomendacioness::class.java)
+            startActivity(intent)
+        }
+
+        val btnperfil: ImageButton = findViewById(R.id.btnPerfil)
+        btnperfil.setOnClickListener{
+            val intent = Intent(this, Perfil::class.java)
+            startActivity(intent)
+        }
+
+        val btnrewards: ImageButton = findViewById(R.id.btnRewards)
+        btnrewards.setOnClickListener{
+            val intent = Intent(this, recompensas::class.java)
             startActivity(intent)
         }
 
