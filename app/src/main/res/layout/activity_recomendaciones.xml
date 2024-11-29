@@ -130,7 +130,7 @@
                             android:text="DUCHARSE" />
 
                         <ImageButton
-                            android:id="@+id/imageButtonn2"
+                            android:id="@+id/imageButtonn1"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -166,7 +166,7 @@
                             tools:ignore="DuplicateIds" />
 
                         <ImageButton
-                            android:id="@+id/imageButtonn2"
+                            android:id="@+id/imageButtonn1"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -202,7 +202,7 @@
                             tools:ignore="DuplicateIds" />
 
                         <ImageButton
-                            android:id="@+id/imageButtonn2"
+                            android:id="@+id/imageButtonn1"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -240,7 +240,7 @@
                             tools:ignore="DuplicateIds" />
 
                         <ImageButton
-                            android:id="@+id/imageButtonn2"
+                            android:id="@+id/imageButtonn1"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -276,7 +276,7 @@
                             tools:ignore="DuplicateIds" />
 
                         <ImageButton
-                            android:id="@+id/imageButtonn2"
+                            android:id="@+id/imageButtonn1"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
