@@ -7,6 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".registro">
 
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                                       USUARIO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="414dp"
         android:layout_height="83dp"
@@ -62,11 +69,66 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.529">
 
-        <Button
-            android:id="@+id/button"
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:text="            REGISTRARSE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="                          CORREO ELECTRONICO"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="                INGRESE CORREO ELECTRONICO" />
+
+        <TextView
+            android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="                                       USUARIO"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="                          NOMBRE DE USUARIO" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="                                  CONTRASEÑA"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="                         INGRESA CONTRASEÑA"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="REGISTRARSE"
+            app:iconTint="@color/black"
+            app:iconTintMode="multiply"
+            app:rippleColor="#140F0F" />
+
     </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
