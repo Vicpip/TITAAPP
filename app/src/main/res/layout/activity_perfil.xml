@@ -103,7 +103,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Somos un equipo de la clase Formulacion de Proyectos del Instituto Pólitecnico Nacional (IPN)."
-            android:textAlignment="viewStart"
+            android:textAlignment="center"
             android:textSize="18sp" />
 
         <TextView
@@ -111,7 +111,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nuestro objetivo es encontrar soluciones innovadoras que contribuyan con el bien de la sociedad. A través de TITAPP, buscamos promover el uso responsable de agua en los hogares, creando conciencia sobre su importancia  y proporcionando herramientas que ayuden a reducir su consumo de manera eficiente y sostenible. "
-            android:textAlignment="viewStart"
+            android:textAlignment="center"
             android:textSize="18sp" />
 
     </LinearLayout>
