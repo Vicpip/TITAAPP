@@ -75,6 +75,12 @@
             android:text=" ¡Lo estas hacciendo muy                                      bien!"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/_c3b15dd_548b_45d1_8920_7c30ce78806b" />
+
     </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
