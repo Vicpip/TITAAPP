@@ -7,6 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".estadisticas">
 
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" ¡Lo estas hacciendo muy                                      bien!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="414dp"
         android:layout_height="83dp"
@@ -57,10 +64,35 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.529">
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      ESTADISTICAS "
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="425dp"
+            android:layout_height="178dp"
+            android:src="@drawable/statistic_icon_symbol_design_illustration_vector" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Lo estas haciendo muy bien!"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:src="@drawable/a9505dfb_66b0_425f_a429_8c933b5b7128" />
 
     </LinearLayout>
 
