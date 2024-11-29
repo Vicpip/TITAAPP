@@ -62,7 +62,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btnMenu"
+                android:id="@+id/btnBack"
                 android:layout_width="7dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

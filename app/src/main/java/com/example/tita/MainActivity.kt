@@ -1,6 +1,8 @@
 package com.example.tita
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +18,32 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val btnactividad: Button = findViewById(R.id.btnActividad)
+        btnactividad.setOnClickListener{
+            val intent = Intent(this, Activdades::class.java)
+            startActivity(intent)
+        }
+
+        val btnstats: Button = findViewById(R.id.btnStats)
+        btnstats.setOnClickListener{
+            val intent = Intent(this, estadisticas::class.java)
+            startActivity(intent)
+        }
+
+        val btnvinculo: Button = findViewById(R.id.btnVinculo)
+        btnvinculo.setOnClickListener{
+            val intent = Intent(this, vinculo::class.java)
+            startActivity(intent)
+        }
+
+        val btnrecp: Button = findViewById(R.id.btnReco)
+        btnrecp.setOnClickListener{
+            val intent = Intent(this, recomendaciones::class.java)
+            startActivity(intent)
+        }
+
+
+
     }
 }

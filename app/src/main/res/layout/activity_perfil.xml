@@ -20,7 +20,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btnMenu"
+                android:id="@+id/btnBack"
                 android:layout_width="7dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -82,13 +82,6 @@
             android:layout_height="wrap_content"
             android:text="Tu correo:"
             android:textSize="20sp" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textEmailAddress"
-            android:textEditNoPasteWindowLayout="usuario@email.com" />
 
         <TextView
             android:id="@+id/textView15"
