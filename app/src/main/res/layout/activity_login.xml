@@ -7,4 +7,21 @@
     android:layout_height="match_parent"
     tools:context=".Login">
 
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="hola"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="241dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
