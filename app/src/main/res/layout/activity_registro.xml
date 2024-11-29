@@ -113,15 +113,16 @@
             android:text="                                  CONTRASEÑA"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
-        <TextView
-            android:id="@+id/textView14"
+        <EditText
+            android:id="@+id/editTextTextPassword"
             android:layout_width="match_parent"
-            android:layout_height="62dp"
-            android:text="                         INGRESA CONTRASEÑA"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="            " />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnRegistrarse"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="REGISTRARSE"
