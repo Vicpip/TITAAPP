@@ -9,12 +9,11 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="414dp"
-        android:layout_height="563dp"
+        android:layout_width="362dp"
+        android:layout_height="539dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.529">
@@ -27,11 +26,19 @@
             android:textAlignment="center"
             android:textSize="24sp" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
             android:layout_height="214dp"
             app:srcCompat="@drawable/recompensa" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
 
         <Button
             android:id="@+id/button"
@@ -39,6 +46,10 @@
             android:layout_height="wrap_content"
             android:text="Descargar"
             android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
 
         <TextView
             android:id="@+id/textView19"

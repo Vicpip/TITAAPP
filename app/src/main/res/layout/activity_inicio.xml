@@ -30,7 +30,33 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"/>
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="136dp"
+                        android:layout_weight="1"
+                        android:text="Button" />
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="134dp"
+                        android:layout_weight="1"
+                        android:text="Button" />
+
+                    <Space
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
             </HorizontalScrollView>
         </FrameLayout>
 
@@ -45,21 +71,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:orientation="vertical" >
-
-                    <FrameLayout
-                        android:layout_width="413dp"
-                        android:layout_height="wrap_content">
-
-                        <TextView
-                            android:id="@+id/textView16"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="50"
-                            android:text="Recomendaciones"
-                            android:textSize="20sp" />
-                    </FrameLayout>
-                </LinearLayout>
+                    android:orientation="horizontal"></LinearLayout>
             </HorizontalScrollView>
         </FrameLayout>
 

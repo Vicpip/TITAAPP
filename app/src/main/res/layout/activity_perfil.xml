@@ -50,12 +50,11 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="414dp"
-        android:layout_height="563dp"
+        android:layout_width="331dp"
+        android:layout_height="531dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.529">
@@ -68,6 +67,10 @@
             android:textAlignment="center"
             android:textSize="34sp" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
         <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"
@@ -76,12 +79,20 @@
             android:textAlignment="center"
             android:textSize="20sp" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
         <TextView
             android:id="@+id/textView18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Tu correo:"
             android:textSize="20sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
 
         <TextView
             android:id="@+id/textView15"
@@ -91,6 +102,10 @@
             android:textAlignment="center"
             android:textSize="34sp" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
         <TextView
             android:id="@+id/textView17"
             android:layout_width="match_parent"
@@ -99,6 +114,10 @@
             android:textAlignment="center"
             android:textSize="18sp" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
         <TextView
             android:id="@+id/textView21"
             android:layout_width="match_parent"
@@ -106,6 +125,10 @@
             android:text="Nuestro objetivo es encontrar soluciones innovadoras que contribuyan con el bien de la sociedad. A través de TITAPP, buscamos promover el uso responsable de agua en los hogares, creando conciencia sobre su importancia  y proporcionando herramientas que ayuden a reducir su consumo de manera eficiente y sostenible. "
             android:textAlignment="center"
             android:textSize="18sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
 
     </LinearLayout>
 

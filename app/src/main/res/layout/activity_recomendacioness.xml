@@ -8,6 +8,7 @@
     tools:context=".recomendacioness">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView4"
         android:layout_width="414dp"
         android:layout_height="83dp"
         android:layout_marginTop="6dp"
@@ -50,6 +51,7 @@
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView5"
         android:layout_width="414dp"
         android:layout_height="83dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,16 +86,19 @@
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="557dp"
+        android:layout_width="341dp"
+        android:layout_height="533dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="90dp">
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomNavigationView4">
 
         <TextView
             android:id="@+id/textView20"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="VÍDEOS RECOMENDADOS"
             android:textSize="30sp" />
 
@@ -109,7 +114,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -117,17 +122,29 @@
                     android:layout_height="200dp"
                     app:srcCompat="@drawable/image_processing20220322_4_b0e5w" />
 
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     app:srcCompat="@drawable/images" />
 
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
                 <ImageView
                     android:id="@+id/imageView6"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     app:srcCompat="@drawable/intensificar_el_ahorro_del_agua" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
             </LinearLayout>
         </ScrollView>
 
