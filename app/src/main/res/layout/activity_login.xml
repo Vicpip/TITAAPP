@@ -86,7 +86,7 @@
             tools:layout_editor_absoluteY="539dp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btnLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="INICIAR SESION"
@@ -94,7 +94,7 @@
             tools:layout_editor_absoluteY="586dp" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/btnRegistrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="REGISTRARSE"
