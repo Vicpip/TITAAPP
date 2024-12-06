@@ -8,8 +8,12 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.firebase.database.FirebaseDatabase
 
 class Activdades : AppCompatActivity() {
+
+    private val database = FirebaseDatabase.getInstance()
+    private val myRef = database.getReference("consumo/actividad")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -20,34 +24,6 @@ class Activdades : AppCompatActivity() {
             insets
         }
 
-        val btnhome: ImageButton = findViewById(R.id.btnHome)
-        btnhome.setOnClickListener{
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-        }
 
-        val btnperfil: ImageButton = findViewById(R.id.btnPerfil)
-        btnperfil.setOnClickListener{
-            val intent = Intent(this, Perfil::class.java)
-            startActivity(intent)
-        }
-
-        val btnrewards: ImageButton = findViewById(R.id.btnRewards)
-        btnrewards.setOnClickListener{
-            val intent = Intent(this, recompensas::class.java)
-            startActivity(intent)
-        }
-
-        val btntita: ImageButton = findViewById(R.id.btnTita)
-        btntita.setOnClickListener{
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-        }
-
-        val btnback: ImageButton = findViewById(R.id.btnBack)
-        btnback.setOnClickListener{
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-        }
     }
 }
