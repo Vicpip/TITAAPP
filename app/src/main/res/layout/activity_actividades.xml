@@ -124,14 +124,16 @@
                         android:layout_height="match_parent"
                         android:orientation="horizontal">
 
-                        <EditText
+                        <TextView
                             android:id="@+id/editTextText2"
                             android:layout_width="232dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:ems="10"
+                            android:gravity="center"
                             android:inputType="text"
-                            android:text="DUCHARSE" />
+                            android:text="DUCHARSE"
+                            android:textSize="24sp" />
 
                         <ImageButton
                             android:id="@+id/btnAddDucha"
@@ -152,16 +154,18 @@
                         android:layout_height="105dp"
                         android:orientation="horizontal">
 
-                        <EditText
+                        <TextView
                             android:id="@+id/editTextText2"
                             android:layout_width="232dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:ems="10"
+                            android:gravity="center"
                             android:inputType="text"
                             android:selectAllOnFocus="false"
                             android:singleLine="false"
                             android:text="LAVARSE LOS DIENTES"
+                            android:textSize="24sp"
                             tools:ignore="DuplicateIds" />
 
                         <ImageButton
@@ -184,16 +188,18 @@
                         android:layout_height="105dp"
                         android:orientation="horizontal">
 
-                        <EditText
+                        <TextView
                             android:id="@+id/editTextText2"
                             android:layout_width="232dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:ems="10"
+                            android:gravity="center"
                             android:inputType="text"
                             android:selectAllOnFocus="false"
                             android:singleLine="false"
                             android:text="LAVAR LOS PLATOS"
+                            android:textSize="24sp"
                             tools:ignore="DuplicateIds" />
 
                         <ImageButton
@@ -216,16 +222,18 @@
                         android:layout_height="105dp"
                         android:orientation="horizontal">
 
-                        <EditText
+                        <TextView
                             android:id="@+id/editTextText2"
                             android:layout_width="232dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:ems="10"
+                            android:gravity="center"
                             android:inputType="text"
                             android:selectAllOnFocus="false"
                             android:singleLine="false"
                             android:text="LAVAR LA ROPA"
+                            android:textSize="24sp"
                             tools:ignore="DuplicateIds" />
 
                         <ImageButton
@@ -248,16 +256,18 @@
                         android:layout_height="105dp"
                         android:orientation="horizontal">
 
-                        <EditText
+                        <TextView
                             android:id="@+id/editTextText2"
                             android:layout_width="232dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:ems="10"
+                            android:gravity="center"
                             android:inputType="text"
                             android:selectAllOnFocus="false"
                             android:singleLine="false"
                             android:text="USO DEL WC"
+                            android:textSize="24sp"
                             tools:ignore="DuplicateIds" />
 
                         <ImageButton
@@ -280,16 +290,18 @@
                         android:layout_height="105dp"
                         android:orientation="horizontal">
 
-                        <EditText
+                        <TextView
                             android:id="@+id/editTextText2"
                             android:layout_width="232dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:ems="10"
+                            android:gravity="center"
                             android:inputType="text"
                             android:selectAllOnFocus="false"
                             android:singleLine="false"
                             android:text="LAVAR MANOS"
+                            android:textSize="24sp"
                             tools:ignore="DuplicateIds" />
 
                         <ImageButton
