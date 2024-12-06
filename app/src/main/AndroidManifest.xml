@@ -50,6 +50,7 @@
         <activity
             android:name=".Perfil"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="false">
