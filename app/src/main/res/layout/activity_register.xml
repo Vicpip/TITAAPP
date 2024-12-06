@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="99dp"
             android:gravity="center"
-            android:text="            REGISTRARSE"
+            android:text=" REGISTRARSE"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
         <TextView
