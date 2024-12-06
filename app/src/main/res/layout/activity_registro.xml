@@ -24,29 +24,32 @@
             android:layout_width="match_parent"
             android:layout_height="99dp"
             android:gravity="center"
-            android:text="            REGISTRARSE"
+            android:text="Registro"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
         <TextView
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="34dp"
-            android:text="                          CORREO ELECTRONICO"
+            android:text="Correo "
+            android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <EditText
             android:id="@+id/emailEditText"
-            android:layout_width="match_parent"
+            android:layout_width="291dp"
             android:layout_height="102dp"
             android:ems="10"
+            android:hint="Ingresa tu correo"
             android:inputType="textEmailAddress"
-            android:text="                INGRESE CORREO ELECTRONICO" />
+            android:textAlignment="center" />
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="                                       USUARIO"
+            android:text="Usuario"
+            android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <EditText
@@ -54,29 +57,32 @@
             android:layout_width="match_parent"
             android:layout_height="114dp"
             android:ems="10"
+            android:hint="Ingresa un nombre de usuario"
             android:inputType="text"
-            android:text="                          NOMBRE DE USUARIO" />
+            android:textAlignment="center" />
 
         <TextView
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="42dp"
-            android:text="                                  CONTRASEÑA"
+            android:text="Contraseña"
+            android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <EditText
             android:id="@+id/passwordEditText"
-            android:layout_width="match_parent"
+            android:layout_width="286dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Ingresa una contraseña"
             android:inputType="textPassword"
-            android:text="            " />
+            android:textAlignment="center" />
 
         <Button
             android:id="@+id/registerButton"
             android:layout_width="187dp"
             android:layout_height="match_parent"
-            android:text="REGISTRARSE"
+            android:text="Registrarse"
             app:iconTint="@color/black"
             app:iconTintMode="multiply"
             app:rippleColor="#140F0F" />
