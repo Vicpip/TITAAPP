@@ -8,14 +8,17 @@
     tools:context=".Login">
 
     <LinearLayout
-        android:layout_width="376dp"
-        android:layout_height="695dp"
+        android:layout_width="743dp"
+        android:layout_height="1059dp"
         android:gravity="center"
         android:orientation="vertical"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338">
 
         <ImageView
             android:id="@+id/imageView"
@@ -112,4 +115,12 @@
             tools:layout_editor_absoluteX="142dp"
             tools:layout_editor_absoluteY="634dp" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="798dp"
+        android:layout_height="1384dp"
+        app:srcCompat="@drawable/tita2_removebg"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="307dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
