@@ -11,7 +11,6 @@
         android:id="@+id/bottomNavigationView4"
         android:layout_width="414dp"
         android:layout_height="83dp"
-        android:layout_marginTop="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -105,51 +104,61 @@
             android:text="VÍDEOS RECOMENDADOS"
             android:textSize="30sp" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="15dp"
-            android:orientation="vertical"></LinearLayout>
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <LinearLayout
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="match_parent">
 
-                <VideoView
-                    android:id="@+id/video1"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    app:srcCompat="@drawable/image_processing20220322_4_b0e5w" />
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp" />
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
 
-                <VideoView
-                    android:id="@+id/video2"
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    app:srcCompat="@drawable/images" />
+                    <VideoView
+                        android:id="@+id/video1"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/image_processing20220322_4_b0e5w" />
 
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp" />
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
 
-                <VideoView
-                    android:id="@+id/video3"
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    app:srcCompat="@drawable/intensificar_el_ahorro_del_agua" />
+                    <VideoView
+                        android:id="@+id/video2"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/images" />
 
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp" />
-            </LinearLayout>
-        </ScrollView>
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <VideoView
+                        android:id="@+id/video3"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        app:srcCompat="@drawable/intensificar_el_ahorro_del_agua" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

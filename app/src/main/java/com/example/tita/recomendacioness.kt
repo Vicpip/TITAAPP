@@ -25,7 +25,7 @@ class recomendacioness : AppCompatActivity() {
         video.resume()
         video.start()
 
-        val video2 = findViewById<VideoView>(R.id.video1)
+        val video2 = findViewById<VideoView>(R.id.video2)
         val uri2: Uri = Uri.parse(
             "android.resource://" + packageName + "/raw/video2"
         )
@@ -33,6 +33,15 @@ class recomendacioness : AppCompatActivity() {
         video2.requestFocus()
         video2.resume()
         video2.start()
+
+        val video3 = findViewById<VideoView>(R.id.video3)
+        val uri3: Uri = Uri.parse(
+            "android.resource://" + packageName + "/raw/video3"
+        )
+        video3.setVideoURI(uri2)
+        video3.requestFocus()
+        video3.resume()
+        video3.start()
 
 
 
