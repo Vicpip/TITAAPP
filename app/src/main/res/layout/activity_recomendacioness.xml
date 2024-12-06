@@ -88,7 +88,7 @@
 
                 <VideoView
                     android:id="@+id/video1"
-                    android:layout_width="match_parent"
+                    android:layout_width="451dp"
                     android:layout_height="200dp" />
 
                 <Space
@@ -134,7 +134,7 @@
 
                 <VideoView
                     android:id="@+id/video2"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="200dp"
                     app:srcCompat="@drawable/images" />
 
@@ -241,22 +241,22 @@
 
             <ImageButton
                 android:id="@+id/btnHome"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/hogar" />
 
             <ImageButton
                 android:id="@+id/btnPerfil"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/perfil" />
 
             <ImageButton
                 android:id="@+id/btnRewards"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/medallas2" />
 
