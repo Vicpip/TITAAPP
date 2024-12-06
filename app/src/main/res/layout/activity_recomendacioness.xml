@@ -63,7 +63,7 @@
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="VÍDEOS RECOMENDADOS"
+            android:text="Vídeos recomendados"
             android:textAlignment="center"
             android:textSize="34sp" />
     </LinearLayout>
