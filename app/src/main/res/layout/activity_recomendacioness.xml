@@ -55,6 +55,7 @@
         android:layout_width="414dp"
         android:layout_height="83dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
@@ -87,6 +88,7 @@
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="341dp"
         android:layout_height="533dp"
         android:orientation="vertical"
