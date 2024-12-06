@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "576315050950",
+    "project_id": "tita-9bf71",
+    "storage_bucket": "tita-9bf71.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576315050950:android:d1df95bcf60c0b312e00c7",
+        "android_client_info": {
+          "package_name": "com.example.tita"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIbMqM4UcUSr7k0n_g_m-XmRV1thUdv70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

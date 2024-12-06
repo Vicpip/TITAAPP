@@ -57,12 +57,12 @@
             tools:layout_editor_absoluteY="378dp" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/emailEditText"
             android:layout_width="257dp"
             android:layout_height="80dp"
+            android:contentDescription="INGRESE CORREO O USUARIO"
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:text="INGRESE CORREO O USUARIO"
             tools:layout_editor_absoluteX="77dp"
             tools:layout_editor_absoluteY="408dp" />
 
@@ -76,7 +76,7 @@
             tools:layout_editor_absoluteY="497dp" />
 
         <EditText
-            android:id="@+id/editTextTextPassword3"
+            android:id="@+id/passwordEditText"
             android:layout_width="109dp"
             android:layout_height="47dp"
             android:ems="10"
@@ -86,7 +86,7 @@
             tools:layout_editor_absoluteY="539dp" />
 
         <Button
-            android:id="@+id/btnLogin"
+            android:id="@+id/loginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="INICIAR SESION"
@@ -94,7 +94,7 @@
             tools:layout_editor_absoluteY="586dp" />
 
         <Button
-            android:id="@+id/btnRegistrar"
+            android:id="@+id/btnRegistro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="REGISTRARSE"
