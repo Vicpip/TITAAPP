@@ -16,32 +16,56 @@ class recomendacioness : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_recomendacioness)
 
-        val video = findViewById<VideoView>(R.id.video1)
-        val uri: Uri = Uri.parse(
-            "android.resource://" + packageName + "/raw/video1"
-        )
-        video.setVideoURI(uri)
-        video.requestFocus()
-        video.resume()
-        video.start()
+        // Video 1
+        val video1 = findViewById<VideoView>(R.id.video1)
+        val uri1: Uri = Uri.parse("android.resource://" + packageName + "/raw/video1")
+        video1.setVideoURI(uri1)
+        video1.requestFocus()
 
+        val btnPlay1 = findViewById<ImageButton>(R.id.btnPlay1)
+        val btnPause1 = findViewById<ImageButton>(R.id.btnPause1)
+
+        btnPlay1.setOnClickListener {
+            video1.start()
+        }
+
+        btnPause1.setOnClickListener {
+            video1.pause()
+        }
+
+        // Video 2
         val video2 = findViewById<VideoView>(R.id.video2)
-        val uri2: Uri = Uri.parse(
-            "android.resource://" + packageName + "/raw/video2"
-        )
+        val uri2: Uri = Uri.parse("android.resource://" + packageName + "/raw/video2")
         video2.setVideoURI(uri2)
         video2.requestFocus()
-        video2.resume()
-        video2.start()
 
+        val btnPlay2 = findViewById<ImageButton>(R.id.btnPlay2)
+        val btnPause2 = findViewById<ImageButton>(R.id.btnPause2)
+
+        btnPlay2.setOnClickListener {
+            video2.start()
+        }
+
+        btnPause2.setOnClickListener {
+            video2.pause()
+        }
+
+        // Video 3
         val video3 = findViewById<VideoView>(R.id.video3)
-        val uri3: Uri = Uri.parse(
-            "android.resource://" + packageName + "/raw/video3"
-        )
-        video3.setVideoURI(uri2)
+        val uri3: Uri = Uri.parse("android.resource://" + packageName + "/raw/video3")
+        video3.setVideoURI(uri3)
         video3.requestFocus()
-        video3.resume()
-        video3.start()
+
+        val btnPlay3 = findViewById<ImageButton>(R.id.btnPlay3)
+        val btnPause3 = findViewById<ImageButton>(R.id.btnPause3)
+
+        btnPlay3.setOnClickListener {
+            video3.start()
+        }
+
+        btnPause3.setOnClickListener {
+            video3.pause()
+        }
 
 
 

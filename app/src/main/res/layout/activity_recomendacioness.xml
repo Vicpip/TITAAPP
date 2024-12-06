@@ -49,6 +49,183 @@
         </LinearLayout>
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="412dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomNavigationView4">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VÍDEOS RECOMENDADOS"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="646dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <VideoView
+                    android:id="@+id/video1"
+                    android:layout_width="451dp"
+                    android:layout_height="200dp" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnPlay1"
+                            android:layout_width="71dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            app:srcCompat="@android:drawable/ic_media_play" />
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5" />
+
+                        <ImageButton
+                            android:id="@+id/btnPause1"
+                            android:layout_width="71dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            app:srcCompat="@android:drawable/ic_media_pause" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <VideoView
+                    android:id="@+id/video2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/images" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnPlay2"
+                            android:layout_width="71dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            app:srcCompat="@android:drawable/ic_media_play" />
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5" />
+
+                        <ImageButton
+                            android:id="@+id/btnPause2"
+                            android:layout_width="71dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            app:srcCompat="@android:drawable/ic_media_pause" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <VideoView
+                    android:id="@+id/video3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/intensificar_el_ahorro_del_agua" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/btnPlay3"
+                            android:layout_width="71dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            app:srcCompat="@android:drawable/ic_media_play" />
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5" />
+
+                        <ImageButton
+                            android:id="@+id/btnPause3"
+                            android:layout_width="71dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            app:srcCompat="@android:drawable/ic_media_pause" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView5"
         android:layout_width="414dp"
@@ -64,101 +241,27 @@
 
             <ImageButton
                 android:id="@+id/btnHome"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/hogar" />
 
             <ImageButton
                 android:id="@+id/btnPerfil"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/perfil" />
 
             <ImageButton
                 android:id="@+id/btnRewards"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/medallas2" />
 
         </LinearLayout>
+
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="341dp"
-        android:layout_height="533dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bottomNavigationView4">
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="VÍDEOS RECOMENDADOS"
-            android:textSize="30sp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
-
-                    <VideoView
-                        android:id="@+id/video1"
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        app:srcCompat="@drawable/image_processing20220322_4_b0e5w" />
-
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="10dp" />
-
-                    <VideoView
-                        android:id="@+id/video2"
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        app:srcCompat="@drawable/images" />
-
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="10dp" />
-
-                    <VideoView
-                        android:id="@+id/video3"
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        app:srcCompat="@drawable/intensificar_el_ahorro_del_agua" />
-
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="10dp" />
-
-                </LinearLayout>
-            </ScrollView>
-        </LinearLayout>
-
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
