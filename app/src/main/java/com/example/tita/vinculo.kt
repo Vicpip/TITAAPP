@@ -8,6 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import android.net.Uri
 
 class vinculo : AppCompatActivity() {
 
@@ -23,7 +24,8 @@ class vinculo : AppCompatActivity() {
 
         val btnpagar: ImageButton = findViewById(R.id.btnPagar)
         btnpagar.setOnClickListener{
-            val intent = Intent(this, pagar::class.java)
+            val url = "https://aplicaciones.sacmex.cdmx.gob.mx/fut/"  // Reemplaza con la URL que deseas abrir
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             startActivity(intent)
         }
 

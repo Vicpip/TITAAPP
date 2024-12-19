@@ -86,8 +86,8 @@
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <LinearLayout
-        android:layout_width="408dp"
-        android:layout_height="688dp"
+        android:layout_width="399dp"
+        android:layout_height="567dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -116,205 +116,47 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <androidx.cardview.widget.CardView
+                <ImageButton
+                    android:id="@+id/btnDucha"
                     android:layout_width="match_parent"
-                    android:layout_height="105dp">
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/seguridad" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/editTextText2"
-                            android:layout_width="232dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:ems="10"
-                            android:gravity="center"
-                            android:inputType="text"
-                            android:text="Ducharse"
-                            android:textSize="24sp" />
-
-                        <ImageButton
-                            android:id="@+id/btnAddDucha"
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:background="#03A9F4"
-                            app:srcCompat="@android:drawable/ic_menu_add" />
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
+                <ImageButton
+                    android:id="@+id/btnDientes"
                     android:layout_width="match_parent"
-                    android:layout_height="105dp">
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dientes" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="105dp"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/editTextText2"
-                            android:layout_width="232dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:ems="10"
-                            android:gravity="center"
-                            android:inputType="text"
-                            android:selectAllOnFocus="false"
-                            android:singleLine="false"
-                            android:text="Lavarse losdientes"
-                            android:textSize="24sp"
-                            tools:ignore="DuplicateIds" />
-
-                        <ImageButton
-                            android:id="@+id/btnAddDientes"
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:background="#03A9F4"
-                            app:srcCompat="@android:drawable/ic_menu_add" />
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
+                <ImageButton
+                    android:id="@+id/btnPlatos"
                     android:layout_width="match_parent"
-                    android:layout_height="105dp">
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/platos" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="105dp"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/editTextText2"
-                            android:layout_width="232dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:ems="10"
-                            android:gravity="center"
-                            android:inputType="text"
-                            android:selectAllOnFocus="false"
-                            android:singleLine="false"
-                            android:text="Lavar los platos"
-                            android:textSize="24sp"
-                            tools:ignore="DuplicateIds" />
-
-                        <ImageButton
-                            android:id="@+id/btnAddPlatos"
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:background="#03A9F4"
-                            app:srcCompat="@android:drawable/ic_menu_add" />
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
+                <ImageButton
+                    android:id="@+id/btnRopa"
                     android:layout_width="match_parent"
-                    android:layout_height="105dp">
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/lavanderia" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="105dp"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/editTextText2"
-                            android:layout_width="232dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:ems="10"
-                            android:gravity="center"
-                            android:inputType="text"
-                            android:selectAllOnFocus="false"
-                            android:singleLine="false"
-                            android:text="Lavar la ropa"
-                            android:textSize="24sp"
-                            tools:ignore="DuplicateIds" />
-
-                        <ImageButton
-                            android:id="@+id/btnAddRopa"
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:background="#03A9F4"
-                            app:srcCompat="@android:drawable/ic_menu_add" />
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
+                <ImageButton
+                    android:id="@+id/btnWC"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/wc" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="105dp"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/editTextText2"
-                            android:layout_width="232dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:ems="10"
-                            android:gravity="center"
-                            android:inputType="text"
-                            android:selectAllOnFocus="false"
-                            android:singleLine="false"
-                            android:text="Uso del WC"
-                            android:textSize="24sp"
-                            tools:ignore="DuplicateIds" />
-
-                        <ImageButton
-                            android:id="@+id/btnAddWC"
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:background="#03A9F4"
-                            app:srcCompat="@android:drawable/ic_menu_add" />
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
+                <ImageButton
+                    android:id="@+id/btnOtro"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/editar" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="105dp"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/editTextText2"
-                            android:layout_width="232dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:ems="10"
-                            android:gravity="center"
-                            android:inputType="text"
-                            android:selectAllOnFocus="false"
-                            android:singleLine="false"
-                            android:text="Lavarse las manos"
-                            android:textSize="24sp"
-                            tools:ignore="DuplicateIds" />
-
-                        <ImageButton
-                            android:id="@+id/btnAddManos"
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:background="#03A9F4"
-                            app:srcCompat="@android:drawable/ic_menu_add" />
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
+                <ImageButton
+                    android:id="@+id/btnVerEstadisticas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/portapapeles" />
             </LinearLayout>
         </ScrollView>
 
